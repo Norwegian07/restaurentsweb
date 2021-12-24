@@ -1,0 +1,98 @@
+body,html{
+    width: 100%;
+    margin: auto;
+}
+.nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: right;
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+/* RES NAME */
+.res-name{
+    margin: 20px;
+    font-size: 36px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 5px 10px 15px grey;
+    width: 800px;
+    border: 1px solid black;
+    margin-left: 300px;
+}
+.special-1{
+    border: 1px solid black;
+    width: 700px;
+    margin-top: 60px;
+    height: 350px;
+    border: none;
+}
+.special-2{
+    border: 1px solid black;
+    width: 850px;
+    margin-top: 100px;
+    height: 400px;
+    float: right;
+    border: none;
+}
+.special-3{
+    border: 1px solid black;
+    width: 850px;
+    margin-top: 600px;
+    height: 300px;
+    clear: both;
+    border: none;
+    margin-bottom: 50px;
+}
+.biryani{
+    width: 450px;
+    height: 350px;
+    position: relative;
+    float: right;
+}
+
+
+.spagatti{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    float: left;
+
+}
+.italian-cusine{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    float: right;
+}
+
+.biryani-spec{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.spaggati-spec{
+    font-weight: bold;
+font-style: oblique;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+
+}
+
+.cusine-spec{
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
