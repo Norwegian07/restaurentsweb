@@ -145,8 +145,14 @@ font-weight: bold;
 
 @media screen and (max-width : 1000px) {
     html,body{
-        background-image: url(https://dm2306files.storage.live.com/y4m3cCGhrYr3NH2h3EBTCd6wldUyAgW0o8p8mV3GjYYhV5mjpmR2trpwKcLLPoAoZYno2yFKCW01aTlO2xSHdTRUbMpKu7AsRgYZCX_LaXCG9XhSkr6WlI3DnnBQco7BRWLNJQUuZG1yKUaOppd5QM1QsSxA6D4ypop6BMADdnvquV7iyY_wUxBXI2iSk9VaKOr?width=1800&height=2700&cropmode=none);
+        background-image: url(https://dm2306files.storage.live.com/y4m5zGDV79LUdzEuCMwWoBKePVs1SiQ87D-f5Uv5TM0HwXKHqN_zYYlXYgsUPCqjGRqDLl93dppiWmAkB5wYpMz4Jkw_YG4KDCIhBqKTXGuoCa0auLd2sIShAZFS5sZ-XkOa_cRRH18GrLvwHMIL5oZYL5rvDHuL2FNrQ8flUGxYqqRi6VocXVNZTQIN0dPQ-Jc?width=1920&height=1280&cropmode=none);
         position: fixed;
+        height: auto;
+    }
+    html.menu,body.body2{
+        background-image: url(https://dm2306files.storage.live.com/y4mg743EU_w4wpaaa7ZG2XkAmlBIp4nV9_OzHyaN7inTDKk4Bo5qtVmP1RQ2Q-q5FGKJggWj_JMXXiboFtHCeIz-Rb58HeLW2wS4iYdcuMtTj9xJTXmCdea3UD1FKPB-rF962t1JT6zPaQZFzugf1NydfYzBqkyy8z32JLiUGS9woa-m3ZYqLjKVxp7FUZw4nZn?width=754&height=1280&cropmode=none);
+        position: fixed;
+        height: auto;
     }
     .nav a{
         color: white;
