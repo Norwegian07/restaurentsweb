@@ -75,7 +75,6 @@ body,html{
 }
 
 .biryani-spec{
-    position: absolute;
     font-size: 18px;
     font-weight: bold;
     font-style: oblique;
@@ -95,7 +94,17 @@ font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; 
 }
-
+/* Next */
+button{
+    font-size: 24px;
+    clear: both;
+width: 200px;
+height: 50px;
+}
+.next{
+    margin: 100px;
+    float: right;
+}
 
 
 
@@ -106,13 +115,20 @@ font-size: 20px;
 
 
 @media screen and (max-width : 1000px) {
+    html,body{
+        background-image: url(https://dm2306files.storage.live.com/y4m3cCGhrYr3NH2h3EBTCd6wldUyAgW0o8p8mV3GjYYhV5mjpmR2trpwKcLLPoAoZYno2yFKCW01aTlO2xSHdTRUbMpKu7AsRgYZCX_LaXCG9XhSkr6WlI3DnnBQco7BRWLNJQUuZG1yKUaOppd5QM1QsSxA6D4ypop6BMADdnvquV7iyY_wUxBXI2iSk9VaKOr?width=1800&height=2700&cropmode=none);
+        position: fixed;
+    }
     .special-2{
-        margin-right: -500px;
+        margin-right: -400px;
     }
     .nav{
-        width: 150%;
+        width: 148%;
     }
     .special-3{
-        margin-left: -50px;
+        margin-left: -70px;
+    }
+    .special-1{
+        margin-left: -20px;
     }
 }
