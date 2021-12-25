@@ -1,6 +1,10 @@
 body,html{
     width: 100%;
     margin: auto;
+    background-image: url(https://dm2306files.storage.live.com/y4m5zGDV79LUdzEuCMwWoBKePVs1SiQ87D-f5Uv5TM0HwXKHqN_zYYlXYgsUPCqjGRqDLl93dppiWmAkB5wYpMz4Jkw_YG4KDCIhBqKTXGuoCa0auLd2sIShAZFS5sZ-XkOa_cRRH18GrLvwHMIL5oZYL5rvDHuL2FNrQ8flUGxYqqRi6VocXVNZTQIN0dPQ-Jc?width=1920&height=1280&cropmode=none);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .nav{
     border: 1px solid black;
@@ -9,12 +13,19 @@ body,html{
     padding: 10px;
     text-align: right;
     padding-right: 30px;
+    border: none;
 }
 .nav a{
     text-decoration: none;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     padding: 25px;
+    color: white;
+}
+h2{
+    margin: 20px;
+     color: black;
+      text-align: center;
 }
 /* RES NAME */
 .res-name{
@@ -23,7 +34,7 @@ body,html{
     text-align: center;
     font-family: cursive;
     font-weight: bold;
-    box-shadow: 5px 10px 15px grey;
+    box-shadow: 5px 10px 15px;
     width: 800px;
     border: 1px solid black;
     margin-left: 300px;
@@ -34,6 +45,7 @@ body,html{
     margin-top: 60px;
     height: 350px;
     border: none;
+    color: white;
 }
 .special-2{
     border: 1px solid black;
@@ -42,6 +54,7 @@ body,html{
     height: 400px;
     float: right;
     border: none;
+    color: white;
 }
 .special-3{
     border: 1px solid black;
@@ -51,6 +64,7 @@ body,html{
     clear: both;
     border: none;
     margin-bottom: 50px;
+    color: white;
 }
 .biryani{
     width: 450px;
@@ -75,7 +89,7 @@ body,html{
 }
 
 .biryani-spec{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
@@ -101,11 +115,26 @@ button{
 width: 200px;
 height: 50px;
 }
+button:hover{
+    color: crimson;
+}
 .next{
     margin: 100px;
     float: right;
 }
-
+.order{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+width: 400px;
+height: 50px;
+border-radius: 20px;
+background-color: orange;
+font-weight: bold;
+}
+.orders{
+    margin-left: 550px;
+}
 
 
 
@@ -119,9 +148,16 @@ height: 50px;
         background-image: url(https://dm2306files.storage.live.com/y4m3cCGhrYr3NH2h3EBTCd6wldUyAgW0o8p8mV3GjYYhV5mjpmR2trpwKcLLPoAoZYno2yFKCW01aTlO2xSHdTRUbMpKu7AsRgYZCX_LaXCG9XhSkr6WlI3DnnBQco7BRWLNJQUuZG1yKUaOppd5QM1QsSxA6D4ypop6BMADdnvquV7iyY_wUxBXI2iSk9VaKOr?width=1800&height=2700&cropmode=none);
         position: fixed;
     }
+    .nav a{
+        color: white;
+        font-size: 30px;
+    }
     .special-2{
         margin-right: -500px;
         color: white;
+    }
+    h2{
+        text-align: center;
     }
     .special-3{
         margin-left: -530px;
@@ -135,4 +171,24 @@ height: 50px;
         width: 400px;
         height: 300px;
     }
+    .res-name{
+        margin-left: -0.01px;
+    }
+    .order{
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        clear: both;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: orange;
+    font-weight: bold;
+    }
+    .orders{
+        margin-left: 250px;
+    }
+
+
+
+
 }
