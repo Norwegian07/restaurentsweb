@@ -120,15 +120,19 @@ height: 50px;
         position: fixed;
     }
     .special-2{
-        margin-right: -400px;
-    }
-    .nav{
-        width: 148%;
+        margin-right: -500px;
+        color: white;
     }
     .special-3{
-        margin-left: -70px;
+        margin-left: -530px;
+        color: white;
     }
     .special-1{
-        margin-left: -20px;
+        margin-left: -520px;
+        color: white;
+    }
+    .spagatti{
+        width: 400px;
+        height: 300px;
     }
 }
