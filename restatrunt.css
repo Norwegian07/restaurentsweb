@@ -93,6 +93,24 @@ font-size: 20px;
     font-weight: bold;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-   
+    font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1000px) {
+    .special-1,.special-3{
+        margin-left: -500px;
+       
+    } 
+    .special-2{
+        margin-right: -500px;
+    }
 }
