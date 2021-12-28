@@ -1,0 +1,52 @@
+html,body{
+    background: none;
+    width: 100%;
+    margin: auto;
+}
+.nav{
+   width: 100%;
+   border: 1px solid black;
+   height: 60px;
+   margin-top: -8px;
+   background-color: black;
+   text-align: right;
+   padding-top: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+    color: white;
+}
+.highly{
+    padding: 20px;  
+    margin-left: 550px;
+}
+.highly-recommended,.starter,.non-veg,.veg,.drinks{
+    height: 50px;
+    width: 400px;
+    border-radius: 25px;
+font-family:'Times New Roman', Times, serif;
+font-weight: bold;
+font-style: italic;
+font-size: 24px;
+text-transform: capitalize;
+color: red;
+}
+.starterpack{
+margin-top: 100px;
+margin-left: 300px;
+}
+.starterpack :hover,.drinkspack :hover,.highly :hover,.non-vegpack :hover,.vegpack :hover{
+    color: blue;
+    box-shadow: 5px 10px 15px black;
+}
+.non-vegpack,.drinkspack{
+margin-top: -50px;
+margin-left: 850px;
+}
+.vegpack{
+margin-top: 100px;
+margin-left: 300px;
+}
