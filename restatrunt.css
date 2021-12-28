@@ -226,20 +226,29 @@ font-weight: bold;
     .orders{
         margin-left: 250px;
     }
-.res-intro{
+.intro-img{
     display: none;
 }
-
+.res-intro{
+    background: none;
+}
 .res-name{
     margin: 20px;
     font-size: 55px;
-    margin-left: 300px;
+    margin-left: 220px;
     position: absolute;
     color: white;
-  margin-left: 600px;
   margin-top: 300px;
   text-align: center;
-    
+  border: 2px solid black;
+  width: 550px;
+  box-shadow: 5px 10px 15px black;
 }
-
+.down{
+    display: none;
+}
+h2{
+    margin-top: 600px;
+    position: absolute;
+}
 }
