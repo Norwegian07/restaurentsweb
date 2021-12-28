@@ -2,7 +2,11 @@ html,body{
     background: none;
     width: 100%;
     margin: auto;
-  
+    background-image: url(https://dm2306files.storage.live.com/y4mzo9Uq4w7RZsnVMqQwTfhkPdawrhWIMT5fr8xN9rBhOLw5CpvL4R3kv0efVSyzzi-efWEYcPNmDC0dN9JhzhjJ8xpeVXTEvpxeWR-ojsPHMSLHfs3tDqpFvq4DrdIiUrwlDrB3BKJ5ogEUDtJTWayoVJwkYRWnVQlKDJFSTTq3HDJfl_f44-4c8dxhBSRc_3b?width=1920&height=1920&cropmode=none);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
 }
 .nav{
    width: 100%;
@@ -72,7 +76,11 @@ p{
 
 @media screen and (max-width :1000px)  {
     html,body{
-        background: none;
+       background-image: url(https://dm2306files.storage.live.com/y4mzo9Uq4w7RZsnVMqQwTfhkPdawrhWIMT5fr8xN9rBhOLw5CpvL4R3kv0efVSyzzi-efWEYcPNmDC0dN9JhzhjJ8xpeVXTEvpxeWR-ojsPHMSLHfs3tDqpFvq4DrdIiUrwlDrB3BKJ5ogEUDtJTWayoVJwkYRWnVQlKDJFSTTq3HDJfl_f44-4c8dxhBSRc_3b?width=1920&height=1920&cropmode=none);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       margin: auto;
     }
     .highly{
         padding: 20px;  

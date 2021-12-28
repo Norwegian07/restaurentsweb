@@ -185,10 +185,7 @@ font-weight: bold;
 @media screen and (max-width : 1000px) {
     html,body{
         background-image: url(https://dm2306files.storage.live.com/y4m5zGDV79LUdzEuCMwWoBKePVs1SiQ87D-f5Uv5TM0HwXKHqN_zYYlXYgsUPCqjGRqDLl93dppiWmAkB5wYpMz4Jkw_YG4KDCIhBqKTXGuoCa0auLd2sIShAZFS5sZ-XkOa_cRRH18GrLvwHMIL5oZYL5rvDHuL2FNrQ8flUGxYqqRi6VocXVNZTQIN0dPQ-Jc?width=1920&height=1280&cropmode=none);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        margin: auto;
+
     }
     .nav a{
         color: white;
