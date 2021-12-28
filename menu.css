@@ -2,10 +2,6 @@ html,body{
     background: none;
     width: 100%;
     margin: auto;
-    background-color: black;
-    background-image: url(https://dm2306files.storage.live.com/y4m4kzTyf7Ddkc31e0S4ozPxcTZ9kGKEqS2m0hine4uV-nmRS7y7nHV2Avls-SVo-lCXS2Kb91Wkt0Xzpl1KLXyySbW8tMd9ybcjyt70Woj4BY3zYxstecfxXfxDVjShi3x1-kvz0Il0H7BQELOs5-bGD6XhXC4-VoMo-db2vttEqgBoagd5H9wsKc3yctZakEE?width=1920&height=1280&cropmode=none);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   
 }
 .nav{
@@ -24,10 +20,7 @@ html,body{
     padding: 25px;
     color: white;
 }
-.highly{
-    padding: 20px;  
-    margin-left: 550px;
-}
+
 .highly-recommended,.starter,.non-veg,.veg,.drinks{
     height: 50px;
     width: 400px;
@@ -41,21 +34,29 @@ color: red;
 }
 .starterpack{
 margin-top: 100px;
-margin-left: 300px;
+margin-left: 550px;
 }
 .starterpack :hover,.drinkspack :hover,.highly :hover,.non-vegpack :hover,.vegpack :hover{
     color: blue;
     box-shadow: 5px 10px 15px black;
 }
 .non-vegpack,.drinkspack{
-margin-top: -50px;
-margin-left: 850px;
+margin-top: 80px;
+margin-left: 550px;
 }
-.vegpack{
-margin-top: 100px;
-margin-left: 300px;
+.vegpack,.highly{
+margin-top: 80px;
+margin-left: 550px;
 }
-
+p{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    
+}
+.popuphighly,.popupstarter,.popupnon-veg,.popupveg,.popupdrinks{
+    margin-left: 400px;
+}
 
 
 
@@ -99,7 +100,11 @@ margin-left: 300px;
             background-color: lightcoral;
             }
 
-
+            .starterpack :hover,.drinkspack :hover,.highly :hover,.non-vegpack :hover,.vegpack :hover{
+                color: whitesmoke;
+                box-shadow: 5px 10px 15px black;
+                background-color: orange;
+            }
 
 
 
