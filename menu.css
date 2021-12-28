@@ -106,8 +106,15 @@ p{
                 background-color: orange;
             }
 
-
-
+            .popuphighly,.popupstarter,.popupnon-veg,.popupveg,.popupdrinks{
+                margin-left: 20px;
+            }
+.close,.close2,.close1,.close3,.close4{
+    height: 50px;
+    width: 200px;
+    font-size: 36px;
+    font-weight: bold;
+}
 
             
 }
