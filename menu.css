@@ -2,6 +2,11 @@ html,body{
     background: none;
     width: 100%;
     margin: auto;
+    background-color: black;
+    background-image: url(https://dm2306files.storage.live.com/y4m4kzTyf7Ddkc31e0S4ozPxcTZ9kGKEqS2m0hine4uV-nmRS7y7nHV2Avls-SVo-lCXS2Kb91Wkt0Xzpl1KLXyySbW8tMd9ybcjyt70Woj4BY3zYxstecfxXfxDVjShi3x1-kvz0Il0H7BQELOs5-bGD6XhXC4-VoMo-db2vttEqgBoagd5H9wsKc3yctZakEE?width=1920&height=1280&cropmode=none);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
 }
 .nav{
    width: 100%;
@@ -49,4 +54,55 @@ margin-left: 850px;
 .vegpack{
 margin-top: 100px;
 margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width :1000px)  {
+    html,body{
+        background: none;
+    }
+    .highly{
+        padding: 20px;  
+        margin-left: 300px; 
+        margin-top: 60px;
+    }
+    .non-vegpack,.drinkspack{
+        margin-top: 100px;
+        margin-left: 300px;
+        }
+        .vegpack,.starterpack{
+            margin-top: 100px;
+            margin-left: 80px;
+            }
+            .highly-recommended,.starter,.non-veg,.veg,.drinks{
+                height: 70px;
+                width: 500px;
+                border-radius: 25px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 36px;
+            text-transform: capitalize;
+            color: black;
+            background-color: lightcoral;
+            }
+
+
+
+
+
+
+            
 }
