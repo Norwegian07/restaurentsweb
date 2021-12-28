@@ -62,16 +62,16 @@ p{
 .popuphighly,.popupstarter,.popupnon-veg,.popupveg,.popupdrinks{
     margin-left: 100px;
  width: 1200px;
- height: 200px;
+ height: 500px;
 }
-.high1{
+.high1,.high2{
     text-align: center;
     float: left;
     color: white;
 }
-.item1{
-    width: 150px;
-    height: 150px;
+.item1,.item2{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .close{
@@ -141,10 +141,16 @@ p{
             }
 .close,.close2,.close1,.close3,.close4{
     height: 50px;
-    width: 200px;
+    width: 80px;
     font-size: 36px;
     font-weight: bold;
-}
 
-            
+position: absolute;
+}
+.popuphighly,.popupstarter,.popupnon-veg,.popupveg,.popupdrinks{
+    margin-left: 10px;
+ width: 900px;
+ height: 500px;
+}
+         
 }
