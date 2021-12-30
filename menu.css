@@ -70,11 +70,11 @@ p{
     color: white;
 }
 .item1,.item2{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
-.close{
+.close,.close1,.close2,.close3,.close4{
      width: 50px;
      font-size: 30px;
      font-weight: bold;
