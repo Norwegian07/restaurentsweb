@@ -15,7 +15,7 @@ html,body{
    margin-top: -8px;
    background-color: black;
    text-align: right;
-   padding-top: 20px;
+   padding-top: 50px;
 }
 .nav a{
     text-decoration: none;
@@ -80,7 +80,7 @@ p{
      font-weight: bold;
      font-family: 'Times New Roman', Times, serif;
 }
-.close:hover{
+.close:hover,.close1:hover{
     color: red;
    box-shadow: 5px 10px 15px black;
 }
